@@ -123,5 +123,7 @@
   @media (max-width: 450px) {
     .project-card {
       min-width: 310px;
+      padding-left:  10px !important;
+      padding-right: 20px !important;
     }
   }
