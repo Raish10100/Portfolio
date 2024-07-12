@@ -73,6 +73,10 @@
     .navbar-nav .nav-item a::after {
       display: none !important;
     }
+    .container {
+      padding-left: 0.75rem !important ;
+      padding-right: 0rem !important ;
+    }
   }
   .navbar-brand {
     color: rgb(250, 250, 250) !important;
