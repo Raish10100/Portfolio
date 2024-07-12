@@ -1,0 +1,127 @@
+.project-section {
+    position: relative !important;
+    padding-top: 80px !important;
+    padding-bottom: 30px !important;
+    background-image: var(--section-background-color) !important;
+  }
+  
+  .project-card {
+    padding-top: 20px !important;
+    padding-bottom: 50px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    height: auto !important;
+    min-width: 410px;
+  }
+
+   .project-filter {
+    margin-top: 40px;
+   }
+   .project-filter button {
+    margin-left: 10px;
+    border: none;
+    padding: 8px ;
+    border-radius: 5px;
+    background-color: #333333;
+    opacity: 0.7;
+    color: whitesmoke;
+    margin-top: 5px;
+   }
+   .up-date {
+    font-size: 12px;
+    color: #ffffff;
+    padding: 4px 6px;
+    border-radius: 100px;
+    background: linear-gradient(to right, #4843d3, #6c69c0d0, #5d5cc2 );
+    font-weight: 600;
+    transform: translateY(-30px);
+    position: absolute;
+    letter-spacing: 1px;
+    left: 10px;
+    top: 265px;
+   }
+
+   .project-filter .selected {
+    opacity: 1;
+    background-color: #7470f0;
+   }
+
+ .line {
+  background-color: #7470f0;
+  border: 2px solid #5d5cc2;
+  border-radius: 5px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+  .project-card-view {
+    box-shadow: 0 4px 5px 3px #5e5cc2d3 !important;
+    color: white !important;
+    background-color: transparent !important;
+    opacity: 0.9 !important;
+    transition: all 0.5s ease 0s !important;
+    height: 100% !important;
+  }
+  .project-card-view:hover {
+    transform: scale(1.02) !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 4px 5px #5d5cc2 !important;
+  }
+  
+  .card-img-top {
+    padding: 0px 10px 0px !important;
+    border-radius: 10px !important;
+    height: 200px ;
+    position: relative;
+  }
+  .btn-primary {
+    color: #fff !important;
+    background-color: #7470f0 !important;
+    border-color: #7470f0 !important;
+  }
+  
+  .btn-primary:hover {
+    color: #fff !important;
+    background-color: #7470f0d8 !important;
+    border-color: #7470f0d8 !important;
+  } 
+  .btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .project-heading {
+    color: white !important;
+    font-size: 2.3em !important;
+    font-weight: 500 !important;
+    padding-top: 10px !important;
+  }
+  .title{
+    font-size: 1.3em !important;
+    padding: 15px 10px 10px 10px;
+    margin: 0;
+  }
+  .tech, .desc {
+    font-size: 1.1em;
+  }
+  .video-icon{
+    position: absolute;
+    right: 15px;
+    top: 60px;
+    background-color: #000;
+    padding: 1px 5px;
+    border-radius: 5px;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  .video-icon:hover{
+    color: #ffffffb4;
+    transition: all ease-in-out 0.3s;
+  }
+
+
+  @media (max-width: 450px) {
+    .project-card {
+      min-width: 310px;
+    }
+  }
