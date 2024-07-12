@@ -6,11 +6,25 @@ import './Resume.css'
 import pdf from "../../Assets/Resume_Raish_Vadaviya.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
+import { saveAs } from 'file-saver'
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
+
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
+
+
+// -----------
+const pdfFile = pdf; 
+
+  const handleDownload = () => {
+    saveAs(pdfFile, 'Resume_Raish_Vadaviya.pdf');
+  };
+
+
+
 
   useEffect(() => {
     setWidth(window.innerWidth);
@@ -26,6 +40,7 @@ function ResumeNew() {
             href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
+            onClick={handleDownload}
           >
             <AiOutlineDownload />
             &nbsp;Download CV
@@ -44,6 +59,7 @@ function ResumeNew() {
             href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
+            onClick={handleDownload}
           >
             <AiOutlineDownload />
             &nbsp;Download CV

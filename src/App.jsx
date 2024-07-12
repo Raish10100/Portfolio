@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import Preloader from "./Helpers/Pre.js";
+import  { useState, useEffect } from "react";
+import Preloader from "./Helpers/Pre.jsx";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Home from "./components/Home/Home.jsx";
 import About from "./components/About/About.jsx";
