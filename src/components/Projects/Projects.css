@@ -1,6 +1,6 @@
 .project-section {
     position: relative !important;
-    padding-top: 80px !important;
+    padding-top: 120px !important;
     padding-bottom: 30px !important;
     background-image: var(--section-background-color) !important;
   }
@@ -95,6 +95,7 @@
     font-size: 2.3em !important;
     font-weight: 500 !important;
     padding-top: 10px !important;
+    padding-bottom: 10px !important;
   }
   .title{
     font-size: 1.3em !important;
@@ -123,7 +124,10 @@
   @media (max-width: 450px) {
     .project-card {
       min-width: 310px;
-      padding-left:  10px !important;
-      padding-right: 20px !important;
+      padding-left:  15px !important;
+      padding-right: 15px !important;
+    }
+    .project-section {
+      padding-top: 100px !important;
     }
   }

@@ -98,7 +98,7 @@ function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <IoIosContact style={{ marginBottom: "6px" }} size="20px" />
+                <IoIosContact style={{ marginBottom: "6px" }} size="25px" />
                  Contact Me
               </Nav.Link>
             </Nav.Item>

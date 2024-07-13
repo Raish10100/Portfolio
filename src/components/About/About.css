@@ -25,6 +25,9 @@
     padding-top: 25px !important;
     padding-bottom: 20px !important;
 }
+.blockquote  p {
+  text-align: center !important;
+}
 
   @media (max-width: 767px) {
     .tech-icons {

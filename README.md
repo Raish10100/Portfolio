@@ -56,10 +56,10 @@ Ensure you have the following installed on your machine:
 4. **Start the development server:**
 
    ```bash
-   npm start
+   npm run dev
    ```
 
-   This runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits.
+   This runs the app in development mode. Open [http://localhost:5173](http://localhost:5173) to view it in the browser. The page will reload if you make edits.
 
 
 ## 📬 Contact Me
