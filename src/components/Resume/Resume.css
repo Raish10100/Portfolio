@@ -1,5 +1,6 @@
 .resume-section {
     position: relative !important;
+    /* width: 100% !important; */
     padding-top: 110px !important;
     padding-bottom: 30px !important;
     background-image: var(--section-background-color) !important;
@@ -12,8 +13,8 @@
     padding-bottom: 50px;
     justify-content: center;
     width: 100%;
-    margin-left: 0px !important;
-    margin-right: 0px !important;
+    /* margin-left: 0px !important; */
+    /* margin-right: 0px !important; */
   }
 
 
