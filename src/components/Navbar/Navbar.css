@@ -10,6 +10,7 @@
     transition: all 0.3s ease-out 0s !important;
     padding: 0.3rem 1rem !important;
     font-size: 1.2rem !important;
+    width: 100vw;
   }
   
   .navbar-toggler {
@@ -63,7 +64,8 @@
     opacity: 0.9 !important;
   }
   .navbar-nav {
-    margin-top: 30px;
+    margin-top: 10px;
+
   }
 
   
