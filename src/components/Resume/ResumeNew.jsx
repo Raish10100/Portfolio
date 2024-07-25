@@ -15,7 +15,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/b
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
-
+console.log()
 // -----------
 const pdfFile = pdf; 
 
