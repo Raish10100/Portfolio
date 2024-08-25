@@ -37,12 +37,12 @@ function Projects() {
           Showcasing My Expertise in Web Development
         </p>
         <div className="project-filter">
+          <button onClick={(e) => filterHandler(e)}>HTML + CSS</button>
+          <button onClick={(e) => filterHandler(e)}>Vanilla JS</button>
+          <button onClick={(e) => filterHandler(e)}>React JS</button>
           <button className="selected" onClick={(e) => filterHandler(e)}>
             Full Stack
           </button>
-          <button onClick={(e) => filterHandler(e)}>React JS</button>
-          <button onClick={(e) => filterHandler(e)}>Vanilla JS</button>
-          <button onClick={(e) => filterHandler(e)}>HTML + CSS</button>
         </div>
 
         <hr className="line" />
