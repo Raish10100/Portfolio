@@ -6,7 +6,7 @@ import "./Projects.css";
 import ProjectsData from "../../Constants/ProjectsData";
 
 function Projects() {
-  const [filterItem, setFilterItem] = useState("Full Stack");
+  const [filterItem, setFilterItem] = useState("HTML + CSS");
 
   const filterHandler = (e) => {
     const filter = document.querySelectorAll(".project-filter button");
@@ -37,10 +37,10 @@ function Projects() {
           Showcasing My Expertise in Web Development
         </p>
         <div className="project-filter">
-          <button onClick={(e) => filterHandler(e)}>HTML + CSS</button>
+          <button className="selected" onClick={(e) => filterHandler(e)}>HTML + CSS</button>
           <button onClick={(e) => filterHandler(e)}>Vanilla JS</button>
           <button onClick={(e) => filterHandler(e)}>React JS</button>
-          <button className="selected" onClick={(e) => filterHandler(e)}>
+          <button  onClick={(e) => filterHandler(e)}>
             Full Stack
           </button>
         </div>
