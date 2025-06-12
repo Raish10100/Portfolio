@@ -25,7 +25,7 @@ import JSAssignments from '../Assets/Projects/Vanilla JS Assignments.png'
         Description: 'EduCompanion is an LMS platform where admins can create courses, and students can access them after purchasing a subscription, featuring a multitude of benefits.',
         Tech: "MongoDB, Express.js, React.js, Node.js",
         GhLink: 'https://github.com/raish10100/EduCompanion', 
-        DemoLink: 'https://www.edu-companion.online',
+        DemoLink: 'https://edu-compnion-frontend2.onrender.com/',
         Video: "https://res.cloudinary.com/deodsnio3/video/upload/v1720611047/Full_video_of_LMS_1_sa8i6n.mp4",
         FilterCat: "Full Stack",
         CreatedAt: '2024, 6, 22'
